@@ -29,7 +29,3 @@ output "this_availability_zone" {
   value       = aws_instance.myec2.availability_zone
 }
 
-# output "this_tag_name" {
-#   description = "The tag name of myec2 instance"
-#   value       = aws_instance.myec2.tags[my-tag-name]  //find out how to output tag name
-# }
